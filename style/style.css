@@ -126,12 +126,14 @@ body{
 /*----------------*\
     Players Style
 \*-----------------*/
+body{
+    background-color: rgba(230, 232, 233, 0.952); 
+}
 
 main{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    background-color: aliceblue;    
+    align-items: center;   
 }
 .container{
     width: 1050px;
@@ -139,16 +141,36 @@ main{
     margin-top: 70px;
     margin-left: 180px;
     margin-right: 210px;
-    background-color: white;
-    border-radius: 5px;
     /*
-    padding: 30px;
-    border-radius: 5px; */
+    padding: 30px;*/
 }
 .players{
     display: grid;
-    /* grid-template-columns: repeat(3, 1fr); */
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 45px;
     grid-column-gap: 30px;
+}
+.player{
+    /* height: 456px; */
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+.player img{
+    width: 100%;
+}
+.player h1{
+    margin-bottom: -1px;
+    /* padding-left: 5px; */
+    color: #18191F;
+    font-size: 40px;
+    font-weight: 700;
+}
+.player p{
+    margin: 0px;
+    /* padding-left: 5px; */
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 400;
+
 }
