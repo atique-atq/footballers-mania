@@ -93,9 +93,39 @@ body{
     padding-left: 24px;
     padding-right: 24px;
     border-radius: 0px; */
-
 }
 .watch-live a{
     text-decoration: none;
     color: white;
+}
+.header-picture{
+    /* position: relative; */
+    margin-left: 102px;
+    /* height: 438px;
+    width: 400px; */
+    /* height: 100%;
+    width: 100%; */
+    border: 1px solid red;
+}
+.box-purple{
+    border: 1px solid white;
+     height: 438px;
+     width: 400px; 
+     position: absolute;
+     background-color: #2D25A0;
+     border-top-right-radius: 75px; 
+     margin-left: 40px;
+     /* opacity: 0.9; */
+}
+.box-cyan{
+    margin-top: 20px;
+    height: 438px;
+    width: 400px; 
+    position: absolute;
+    background-color: rgb(20, 162, 206);
+    border-top-right-radius: 75px;
+    /* opacity: 0.9; */
+}
+.box-cyan{
+    z-index: 10;
 }
