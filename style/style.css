@@ -26,7 +26,6 @@ body{
     justify-content: space-between;
     position: absolute;
     width: 1161px;
-    height: 44px;
     margin-left: 156px;
     margin-top: 42px;
     margin-right: 121px;
@@ -57,46 +56,47 @@ body{
     color: white;
 }
 .login{
-    margin-top: 10px;
+
+    padding-left: 24px;
+    padding-right: 24px;
     background-color: #E02C6D;
     height: 44px;
     color: white;
-    width: 123px;
-    padding-left: 40px;
-}
-.login p{
-    text-align: center;
-}
-/*
-.navbar>ul{
-    display: flex;
-    margin-left: 0px;
-    width: 587px;
-    height: 24px;
-}
 
-nav li{
-    margin-left: 0px;
-    list-style: none;
-    font-size: 10px;
-    padding: 10 10px;
 }
-nav li a{
+.login a{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 24px;
     text-decoration: none;
     color: white;
-    
-} */
+}
 
-/* .header-box{
-    margin: 135px 235px 114px 156px;
-} */
-/* .header-text{
-    color: #FFFFFF;
-    height: 230px;
-    width: 485px; */
-    /* left: 156px;
-    top: 207px; */
-/* } */
-/* .header-text h1{
+.header-text-container{
+    display: flex;
+    padding-top: 135px;
+    margin-left: 156px;
+}
+.header-text h1{
     margin: 0px;
-} */
+    font-size: 64px;
+    color: white;
+}
+.watch-live{
+    /* padding: 10px, 24px, 10px, 24px; */
+    background-color: #E02C6D;
+    height: 30px;
+    width: 110px;
+    font-size: 16px;
+    padding: 10px 24px;
+    /* padding-top: 10px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 0px; */
+
+}
+.watch-live a{
+    text-decoration: none;
+    color: white;
+
+}
