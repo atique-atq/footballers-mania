@@ -16,7 +16,6 @@ body{
 --------------*/
 .header-container{
     margin: 0px;
-    /* width: 100%; */
     width: 1440px;
     height: 677px;
     background-color: #2D25A0;
@@ -71,6 +70,7 @@ body{
     text-decoration: none;
     color: white;
 }
+
 /* Header Text and Banner Style */
 .header-text-container{
     display: flex;
@@ -261,3 +261,44 @@ main{
      Media Query    
 /*------------------------*/
 
+/* Mobile Devices */
+@media only screen and (max-width: 688px){
+    .header-text-container{
+        margin: 0px;
+        width: 100%;
+        padding: 0px;
+    }
+    .main{
+        align-items: center;
+    }
+    .container{
+        width: 100%;
+        align-items: center;
+    }
+    .featured-videos{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .players, .extra-sections{
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 40%;
+        align-items: center;
+    }
+}
+/* Tablet Devices */
+@media only screen and (min-width:688px) and (max-width: 992px){
+    .main{
+        align-items: center;
+    }
+    .container{
+        width: 100%;
+        align-items: center;
+    }
+    .featured-videos{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .players, .extra-sections{
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        width: 100%;
+    }
+}
