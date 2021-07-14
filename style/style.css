@@ -174,7 +174,6 @@ main{
 
 /* Extra Section */
 .extra-sections{
-    /* height: 100px; */
     width: 100%;
     margin: 5px;
     display: grid;
@@ -186,6 +185,8 @@ main{
     width: 100%;
     background-color: white;
     padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 60px;
 }
 .container h1{
     margin: 0px;
@@ -234,4 +235,16 @@ main{
 .photo-frame:hover .photo{
     transform: scale(1.5);
     transition: transform 1s;
+}
+.footer{
+    /* margin-top: px; */
+    background-color: rgba(230, 232, 233, 0.952);
+    text-align: center;
+}
+.footer-div{
+    text-align: center;
+}
+.footer-div img{
+    width: 242px;
+    height: 100px;
 }
