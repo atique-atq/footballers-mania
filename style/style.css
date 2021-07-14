@@ -10,7 +10,6 @@ body{
     margin: -1px;
     font-family: 'Poppins', sans-serif;
 }
-
 /*------------
    header style
 --------------*/
@@ -98,6 +97,25 @@ body{
 .header-picture{
     margin-left: 102px;
 }
+.football {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    background-color: white;
+    position: relative;
+    left: 42px;
+    transition: transform 1s ease-out;
+}
+
+.field:hover .football{
+    transform: translate(950px, -200px);
+}
+
+.header-text-container:hover .football{
+    display: block;
+    transform: translate(500px, -200px);
+}
+
 .box-purple{
     border: 1px solid white;
      height: 434px;
