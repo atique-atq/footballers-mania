@@ -136,12 +136,19 @@ main{
 .container{
     width: 1050px;
     height: 100px;
-    /* margin-left: 180px;
-    margin-right: 210px; */
+    margin-top: 70px;
+    margin-left: 180px;
+    margin-right: 210px;
     background-color: white;
-    /* background-color: white;
-    width: 870px;
+    border-radius: 5px;
+    /*
     padding: 30px;
-    margin-top: 21px;
     border-radius: 5px; */
+}
+.players{
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 45px;
+    grid-column-gap: 30px;
 }
