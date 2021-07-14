@@ -23,32 +23,30 @@ body{
 }
 .navbar{
     display: flex;
+    justify-content: space-between;
     position: absolute;
     width: 1161px;
     height: 44px;
     margin-left: 156px;
     margin-top: 42px;
+    margin-right: 121px;
 }
 .nav-menu{
-    /* width: 588px;
-    c*/
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 0px;
     left: 0px;
     height: 24px;
-    width: 590;
 }
 .nav-menu ul{
     display: flex;
     padding-left: 0px;
-    margin-top: 10px;
     height: 24px;
 }
 .nav-menu ul li{
     list-style: none;
     font-style: normal;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 500;
     margin-right: 36px;
     margin-left: 0px;
@@ -59,13 +57,15 @@ body{
     color: white;
 }
 .login{
-    /* padding: 10px 24px; */
-    /* position: static; */
-    /* align-items: center; */
+    margin-top: 10px;
+    background-color: #E02C6D;
+    height: 44px;
+    color: white;
     width: 123px;
-    padding-left: 67px;
-
-
+    padding-left: 40px;
+}
+.login p{
+    text-align: center;
 }
 /*
 .navbar>ul{
