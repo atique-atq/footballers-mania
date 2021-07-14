@@ -138,12 +138,9 @@ main{
 }
 .container{
     width: 1050px;
-    height: 100px;
     margin-top: 70px;
     margin-left: 180px;
     margin-right: 210px;
-    /*
-    padding: 30px;*/
 }
 .players{
     display: grid;
@@ -173,5 +170,25 @@ main{
     color: #6C6C6C;
     font-size: 16px;
     font-weight: 400;
+}
+
+/* Extra Section */
+.container h1{
+    margin: 0px;
+    font-size: 34px;
+    color: rgb(41, 40, 40);
+}
+.featured-videos{
+    margin: 5px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 15px;
+    background-color: rgb(137, 171, 177);
+    border-radius: 15px;
+}
+.video{
+    padding: 15px;
+    /* width: 100%; */
+    /* height: 300px; */
 
 }
