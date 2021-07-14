@@ -184,7 +184,7 @@ main{
 }
 .extra-section{
     width: 100%;
-    background-color: red;
+    background-color: white;
     padding: 5px;
 }
 .container h1{
@@ -206,14 +206,15 @@ main{
 .photo-album{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 15px;  
+    grid-column-gap: 10px;  
     grid-row-gap: 15px;
 }
 .photo-frame{
+    padding: 15px;
     position: relative;
-    width: 200px;
-    height: 180px;
-    border: 2px solid gold;
+    width: 220px;
+    height: 160px;
+    /* border: 2px solid gold; */
     border-radius: 10px;
     overflow: hidden;
 }
